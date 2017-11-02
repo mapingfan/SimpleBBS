@@ -55,11 +55,11 @@
     <table border="1">
         <tr>
             <td>标题</td>
-            <td><input name="title" type="text"></td>
+            <td><input name="title" type="text" required></td>
         </tr>
         <tr>
             <td>内容</td>
-            <td><textarea name="content" cols="80" rows="20"></textarea></td>
+            <td><textarea required name="content" cols="80" rows="20"></textarea></td>
         </tr>
         <tr>
             <td align="center" colspan="2"><input  type="submit" value="提交"></td>
